@@ -1,0 +1,14 @@
+.users {
+    margin-bottom: 3em;
+    background-color: var(--second-color);
+    margin-top: 2em;
+    width: 20em;
+    margin-left: 3em;
+    padding: 3em;
+    border-radius: 3em;
+    box-shadow: 0 2px 15px #E91E63;
+}
+
+.users p {
+    margin-bottom: 1em;
+}

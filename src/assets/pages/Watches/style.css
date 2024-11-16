@@ -1,0 +1,32 @@
+
+.page-content {
+    position: relative;
+}
+
+.nav {
+    content: "";
+    position: absolute;
+    display: flex;
+    align-items: center;
+    gap: 1.4em;
+    margin-bottom: 2em;
+    right: 0px;
+}
+
+.log-out-button {
+    width: 5em;
+    margin-left: 2em;
+}
+.profile-img {
+    width: 5em;
+    border-radius: 3em;
+}
+
+.page-content .watches-page {
+    position: absolute;
+    left: 50%;
+    top: 300px;
+    transform: translate(-50%, -50%);
+    font-size: 3em;
+    color: var(--main-color);
+}

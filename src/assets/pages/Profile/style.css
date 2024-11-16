@@ -1,0 +1,19 @@
+.profile-container {
+    display: grid;
+    grid-template-columns: 4% 96%;
+    position: relative;
+}
+
+.profile-container .profile-img {
+    width: 5em;
+    border-radius: 3em;
+    position: absolute;
+    right: 3em;
+}
+
+.profile-content {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}

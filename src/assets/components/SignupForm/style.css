@@ -1,0 +1,22 @@
+form {
+    margin-top: 2em;
+}
+
+form label {
+    display: block;
+    margin-bottom: 0.2em;
+    font-size: 1.4em;
+}
+
+form input {
+    padding: 1em;
+    width: 27em;
+    margin-bottom: 1em;
+    border-radius: 0.5em;
+}
+
+@media(min-width: 767px) and (max-width: 900px) {
+    form input {
+        width: 20em;
+    }
+}

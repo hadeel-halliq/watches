@@ -1,0 +1,17 @@
+.checkbox>div {
+    display: flex;
+    align-items: baseline;
+}
+
+.checkbox input {
+    width: 1em;
+    margin-right: 0.5em;
+}
+
+.error-message {
+    color: red;
+    padding-bottom: 1em;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+

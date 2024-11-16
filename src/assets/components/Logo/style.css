@@ -1,0 +1,12 @@
+.small-logo,
+.big-logo {
+  margin-top: 2em;
+  margin-bottom: 2em;
+  display: flex;
+  align-items: center;
+  font-size: 2em;
+}
+
+.big-logo {
+  font-size: 2.3em;
+}

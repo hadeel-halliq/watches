@@ -1,0 +1,13 @@
+.text-des {
+    position: relative;
+}
+
+.text-des span {
+    position: absolute;
+    right: 0;
+    font-size: 12em;
+}
+
+.text-des span svg {
+    color: var(--second-color);
+}

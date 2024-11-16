@@ -1,0 +1,22 @@
+.left-side {
+    background-image: url('../../images/imgOne.jpg');
+    background-repeat: round;
+}
+
+.sign-up {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+@media(max-width: 767px) {
+  .sign-up {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+@media(min-width: 768px) and (max-width: 1500px) {
+  .sign-up {
+    height: 100vh;
+  }
+}

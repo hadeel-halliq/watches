@@ -1,0 +1,21 @@
+.icon-container img {
+    width: 2.5rem;
+}
+
+.nav-container, .icon-container, .page-theme  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.nav-container {
+    height: 100vh;
+    gap: 7rem;
+    border-right: 2px solid #75757594;
+}
+.icon-container, .page-theme {
+    gap: 2rem;
+}
+
+.page-theme {
+    font-size: 1.4rem;
+}
